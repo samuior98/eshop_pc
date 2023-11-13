@@ -1,0 +1,24 @@
+/* Button */
+.bg-gradient div input[type=button] {
+    position:relative;
+    width:8em;
+    height:3em;
+    font-size:1.5em;
+}
+
+/* Button */
+#root div .row .bg-gradient div input[type=button] {
+    left:1em !important;
+    right:1em !important;
+    top:2em !important;
+}
+
+/* Button */
+#button{
+    position:relative;
+    top:3em;
+    left:3em;
+    width:10em;
+    height:4em;
+   }
+   

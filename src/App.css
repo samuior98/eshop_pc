@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #4e5d61;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,140 @@
     transform: rotate(360deg);
   }
 }
+
+/* Row */
+#root div .row{
+  margin-left:1em !important;
+  margin-right:1em !important;
+  margin-top:0em !important;
+  margin-bottom:4em !important;
+ }
+
+ /* Division */
+ #root .bg-gradient > div{
+  position:relative;
+  top:1em;
+  left:0em;
+ }
+
+/**/
+
+ /* Column 3/12 */
+#root div .bg-light{
+  position:relative;
+  top:0em !important;
+  left:0em;
+ }
+ 
+
+ 
+ /* Column 2/12 */
+ #root div .row .bg-gradient{
+  width:20% !important;
+  height:55em !important;
+ }
+ 
+ /* Column 2/12 */
+#divFilter{
+  background-color: #003566 !important;
+ }
+
+ /* Column 3/12 */
+ #root div .row .bg-light{
+  width:20% !important;
+ }
+ 
+ /**/
+
+ /* Image */
+.flex-wrap .p-2 img{
+  height:8em !important;
+  width:10em !important;
+  margin-top:12px;
+ margin-bottom:20px;
+ }
+ 
+ /* Card body */
+ .flex-wrap .p-2 .card-body{
+  width:16em;
+ }
+ 
+ /* Card body */
+ #root div .row .bg-body-tertiary div .flex-wrap .p-2 .card .card-body{
+  height:5em !important;
+ }
+ 
+ /* Card */
+ .flex-wrap .p-2 .card{
+  height:25em !important;
+  width:16em !important;
+  position:static;
+  margin-left:0em;
+  margin-right:0em;
+  margin-top:0em;
+  margin-bottom:0em;
+  padding-left:0em;
+  padding-right:0em;
+ }
+ 
+ /* Span Tag */
+.flex-wrap .p-2 span{
+  position:relative;
+  left:0px;
+  text-align:left;
+  padding-left:0px !important;
+  padding-right:0px !important;
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  margin-right:20px;
+ }
+
+  /* Column 7/12 */
+  #root div .row .bg-body-tertiary{
+    width:60% !important;
+  }
+
+  /* Input */
+#root .p-1 input[type=button]{
+  position:relative;
+  left:3em;
+ }
+ 
+
+ /* Button */
+#root .p-1 input[type=button]{
+  left:2em;
+  width:2em;
+  height:1.5em;
+  font-size:1em;
+  word-spacing:0px;
+  text-decoration:none;
+  text-align:center;
+  text-transform:none;
+  line-height:0em;
+  font-weight:600;
+  padding-left:0em;
+  padding-right:0em;
+  padding-top:0em;
+  padding-bottom:0em;
+ }
+ 
+ /* Button */
+.flex-wrap .p-2 input[type=button]{
+  font-size:1em;
+  line-height:0em;
+  width:2em;
+  height:1.5em;
+  margin-left:0em;
+  margin-right:0em;
+  margin-top:0em;
+  margin-bottom:0em;
+  padding-left:0em;
+  padding-right:0em;
+  padding-top:0em;
+  padding-bottom:0em;
+  text-align:center;
+  font-weight:600;
+  word-spacing:0em;
+ }
+ 
